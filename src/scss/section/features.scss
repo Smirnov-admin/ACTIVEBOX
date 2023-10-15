@@ -1,0 +1,117 @@
+.features {
+  padding: 116px 0;
+
+  .features_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,auto));
+    gap: 88.57px 30px;
+
+    .features_item {
+
+      .features-icon_item {
+        width: 100px;
+        height: 100px;
+        margin:auto;
+        position: relative;
+      }
+
+      .features-icon_item img {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+
+      .features-img {
+        width: 75px;
+        height: 75px;
+      }
+
+      .modification_features-img {
+        width: 67px;
+        height: 88px;
+      }
+
+      .description-features_item {
+        margin-top: 51px;
+
+
+        .title-features_item {
+          color: $dark;
+          text-align: center;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+
+        @media (max-width: 1024px) {
+          .title-features_item {
+            font-size: 18px;
+          }
+        }
+
+        .about_features_item {
+          color: $graphite;
+          text-align: center;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-top: 42.43px;
+        }
+        @media (max-width: 1024px) {
+          .about_features_item {
+            font-size: 14px;
+            margin-top: 23.55px;
+          }
+        }
+        @media (max-width: 320px) {
+          .about_features_item {
+            margin-top: 8.91px;
+          }
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .description-features_item {
+          margin-top: 43.49px;
+        }
+      }
+
+
+      @media (max-width: 320px) {
+        .title-features_item {
+          margin-top: 20.88px;
+        }
+      }
+
+    }
+
+  }
+  @media (max-width: 1024px) {
+    .features_list {
+      gap: 50px 20px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .features_list {
+      gap: 41.59px 0;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .features {
+    padding: 78px 0 80.11px;
+  }
+}
+
+@media (max-width: 320px) {
+  .features {
+    padding: 40px 0 34.85px;
+  }
+}

@@ -1,0 +1,65 @@
+.banner {
+  padding: 230px 0 120px;
+  background: rgba(37,43,73, 0.8);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-image: $home-banner;
+
+  .banner-title_item {
+    color: $white;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 1024px) {
+    .banner-title_item {
+      font-size: 48px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .banner-title_item {
+      font-size: 36px;
+    }
+  }
+
+  .banner-description-title {
+    color: $white;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 31.43px 0 79.57px;
+  }
+
+  @media (max-width: 1024px) {
+    .banner-description-title {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .banner-description-title {
+      font-size: 14px;
+    }
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    padding: 257px 0 126px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner {
+    padding: 106px 0 52px;
+  }
+}

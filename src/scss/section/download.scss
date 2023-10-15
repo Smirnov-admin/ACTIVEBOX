@@ -1,0 +1,79 @@
+.download {
+
+  padding: 132px 0;
+
+  .description-download_wrapper {
+    margin: 0 auto;
+  }
+
+  .title-download_item {
+    color: $black;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 22.29px;
+  }
+
+  @media (max-width: 1024px) {
+    .title-download_item {
+      font-size: 24px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .title-download_item {
+      font-size: 18px;
+    }
+  }
+
+  .description-download_item {
+    color: $black;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 1024px) {
+    .description-download_item {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .description-download_item {
+      font-size: 13px;
+    }
+  }
+
+  .button-download {
+    padding-top: 47.71px;
+  }
+
+  @media (max-width: 1024px) {
+    .button-download {
+      padding-top: 43.29px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .button-download {
+      padding-top: 11px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .download {
+    padding: 93.51px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .download {
+    padding: 65px 0;
+  }
+}

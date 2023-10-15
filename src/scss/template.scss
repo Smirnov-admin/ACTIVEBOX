@@ -1,0 +1,37 @@
+.btn-download{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background: $red;
+  max-width: 370px;
+  height: 80px;
+  color: $white;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .btn-download{
+    max-width: 314px;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn-download{
+    max-width: 314px;
+  }
+}
+
+.btn-download:hover {
+  background: #E71414;
+}
+
+.btn-download:active {
+  background: $red;
+  box-shadow: 4px 4px 30px 0px #ff4343;
+}

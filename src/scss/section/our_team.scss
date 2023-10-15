@@ -1,0 +1,139 @@
+.our_team {
+  padding: 114px 0;
+
+  .our_team_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 30px;
+  }
+
+  @media (max-width: 850px) {
+    .our_team_list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .our_team_list {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .our-team_item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our-team-foto_item {
+
+    .foto_item {
+      width: 100%;
+    }
+  }
+
+  .our-team-description_item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+
+    .name_item {
+      color: $dark;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+
+    @media (max-width: 1024px) {
+      .name_item {
+        font-size: 18px;
+      }
+    }
+
+    .job_item {
+      color: $red;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+      margin-top: 5.29px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 1024px) {
+      .job_item {
+        font-size: 14px;
+        margin-top: 4.6px;
+      }
+    }
+
+    .description_item {
+      color: $graphite;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 17.86px 0 37.86px;
+      flex-grow: 1;
+    }
+
+    @media (max-width: 1024px) {
+      .description_item {
+        font-size: 14px;
+        margin: 22px 0 39.2px;
+      }
+    }
+
+    @media (max-width: 320px) {
+      .description_item {
+        margin: 38.5px 0 55.2px;
+      }
+    }
+
+  }
+
+  @media (max-width: 1024px) {
+    .our-team-description_item {
+      margin-top: 25.23px;
+    }
+  }
+
+  .social-media_list {
+    display: flex;
+    gap: 6px;
+    flex-grow: 1;
+  }
+
+  .social_item {
+    width: 39px;
+    height: 39px;
+    border: 1px solid $lightgray;
+    position: relative;
+  }
+
+
+  .social_item img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .our_team {
+    padding: 78px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .our_team {
+    padding: 35px 0;
+  }
+}

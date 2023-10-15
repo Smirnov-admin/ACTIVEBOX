@@ -1,0 +1,1 @@
+let e=document.querySelector(".header_element");window.onscroll=function(){window.scrollY>1?e.classList.add("scrolled"):e.classList.remove("scrolled")},document.querySelector("#menu__burger").addEventListener("change",function(e){document.body.style.overflow=!0===e.target.checked?"hidden":""});
